@@ -1,6 +1,15 @@
 p {
-    width: 100px;
+    /*width: 350px;*/
+    /*height: 200px;*/
+    padding: 10px;
+
+}
+
+body {
+    width: 400px !important;
     height: 200px;
-    padding: 20px;
-    border: 1px solid;
+}
+
+.info-key {
+    font-weight: bold;
 }

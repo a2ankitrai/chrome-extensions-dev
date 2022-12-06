@@ -5,18 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="./popup.css"/>
+    <script type="text/javascript" src="./scripts/popup.js"></script>
 </head>
 <body>
 
 <h1>Tab Informer</h1>
 
-<p>This extension will display all the important information in the current tab. Few of the features:
-    <ol>
-        <li>Show Tab title & url</li>
-        <li>Show selected content in the popup page</li>
-        <li>Show user cookies & storage</li>
-    </ol>
-</p>
+<!--<div>-->
+<!--    <p>This extension will display all the important information in the current tab. Few of the features:-->
+<!--    <ol>-->
+<!--        <li>Show Tab title & url</li>-->
+<!--        <li>Show selected content in the popup page</li>-->
+<!--        <li>Show user cookies & storage</li>-->
+<!--    </ol>-->
+<!--    </p>-->
+<!--</div>-->
+
+<div>
+    <h2>    Current Tab Info</h2>
+    <span class="info-key">Tab URL:</span>
+    <span id="tab-url"></span>
+    <br/>
+    <span class="info-key">Tab Title:</span>
+    <span id="tab-title"></span>
+
+    <br/>
+    <span class="info-key">Selected Text:</span>
+    <span id="selected-text"></span>
+</div>
+
 
 </body>
 </html>
